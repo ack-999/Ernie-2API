@@ -26,6 +26,7 @@ class BaiduProvider(BaseProvider):
     """
 
     MODEL_MAP = {
+        "ERNIE5.0Preview1111", # 对应 EB50
         "ernie-4.5-turbo": "EB45T",
         "ernie-x1": "X1_1",
     }
@@ -168,4 +169,5 @@ class BaiduProvider(BaseProvider):
             "parentChatId": "0",
             "isNewYiyan": True,
             # ... 其他字段可根据需要添加
+
         }
