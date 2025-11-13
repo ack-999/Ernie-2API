@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     # --- 模型列表 (从抓包数据中分析得出) ---
     SUPPORTED_MODELS: List[str] = [
         "ernie-5.0-Preview-1111",
+        "ernie-5.0-Preview-1022",
         "ernie-4.5-turbo", # 对应 EB45T
         "ernie-x1",        # 对应 X1_1
     ]
@@ -37,4 +38,5 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
+
 
