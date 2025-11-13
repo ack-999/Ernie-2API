@@ -27,6 +27,7 @@ class BaiduProvider(BaseProvider):
 
     MODEL_MAP = {
         "ernie-5.0-Preview-1111": "EB50",
+        "ernie-5.0-Preview-1022": "EB50",        
         "ernie-4.5-turbo": "EB45T",
         "ernie-x1": "X1_1",
     }
@@ -171,4 +172,5 @@ class BaiduProvider(BaseProvider):
             # ... 其他字段可根据需要添加
 
         }
+
 
